@@ -1,0 +1,215 @@
+.banner {
+    height: calc(100vh - 86px);
+    background-image: url("../images/home/header.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 65%;
+    position: relative
+}
+
+.banner .banner-content {
+    width: 100%
+}
+
+.banner .banner-content p {
+    color: #fff
+}
+
+.banner .banner-content .banner-button {
+    display: flex;
+    gap: 20px
+}
+
+.banner .banner-content .banner-button .btn {
+    border: 1px solid #fff !important
+}
+
+.banner .banner-content .banner-button .btn-view {
+    color: #fff
+}
+
+.banner .banner-content .banner-button .btn-view:hover {
+    color: #ab7d67;
+    background-color: #fff
+}
+
+.banner .banner-content .banner-button .btn-book {
+    color: #ab7d67;
+    background-color: #fff
+}
+
+.banner .banner-content h1,
+.banner .banner-content p,
+.banner .banner-content .banner-button {
+    position: relative;
+    z-index: 2 !important
+}
+
+@media (max-width: 992px) {
+    .banner .banner-content {
+        position: relative
+    }
+
+    .banner .banner-content::before {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: #00000070;
+        top: 0;
+        left: 0;
+        z-index: 0
+    }
+}
+
+.section-intro .btn {
+    background-color: #ab7d67;
+    color: #fff;
+    transition: all 0.3s ease
+}
+
+.section-intro .btn:hover {
+    border: 1px solid #ab7d67;
+    background-color: #fff;
+    color: #ab7d67
+}
+
+.section-intro .bg-about,
+.section-intro .bg-wedding-dress {
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.section-intro .bg-about img,
+.section-intro .bg-wedding-dress img {
+    width: 100%;
+    object-fit: contain !important
+}
+
+.section-intro .moments .top-carousel .swiper-slide {
+    transform: translateX(-60%)
+}
+
+.section-intro .moments .swiper .swiper-slide {
+    aspect-ratio: 3 / 1;
+    max-height: 170px;
+    overflow: hidden;
+    border-radius: 85px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.section-intro .moments .swiper .swiper-slide::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: rgba(97, 58, 39, 0.7);
+    z-index: 1
+}
+
+.section-intro .moments .swiper .swiper-slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0
+}
+
+.section-intro .moments .swiper .swiper-slide .wrap-slide-content {
+    width: 70%;
+    position: relative;
+    z-index: 2;
+    color: #fff !important
+}
+
+.section-intro .moments .swiper .swiper-slide .wrap-slide-content h5,
+.section-intro .moments .swiper .swiper-slide .wrap-slide-content p {
+    text-align: center;
+    margin: 0
+}
+
+.section-intro .moments .swiper .swiper-slide .wrap-slide-content h5 {
+    font-family: "Moglan" !important;
+    text-transform: uppercase;
+    font-size: calc(0.85rem + 1.2vw)
+}
+
+.section-intro .moments .swiper .swiper-slide .wrap-slide-content p {
+    font-size: 14px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden
+}
+
+.section-intro .story .wrap-content {
+    padding: 20px;
+    width: 100%;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.section-intro .story .wrap-content .content {
+    background-color: #EAD9C9;
+    border-radius: 20px;
+    padding: 20px 80px;
+    width: 100%;
+    max-width: 970px;
+    position: relative
+}
+
+.section-intro .story .wrap-content .content .quote-end,
+.section-intro .story .wrap-content .content .quote-start {
+    position: absolute;
+    height: 20px;
+    width: auto;
+    object-fit: contain
+}
+
+.section-intro .story .wrap-content .content .quote-end {
+    bottom: 40px;
+    right: calc(calc(20% - 5vw) - 40px)
+}
+
+.section-intro .story .wrap-content .content .quote-start {
+    top: 35%;
+    left: calc(calc(20% - 5vw) - 40px)
+}
+
+.section-intro .story .wrap-content .content p {
+    text-align: center
+}
+
+.section-intro .story .bg-story {
+    padding: 0;
+    width: 100%;
+    transform: translateY(-30%);
+    z-index: 1
+}
+
+.section-intro .story .bg-story img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%
+}
+
+.section-intro .question h3,
+.section-intro .question h5,
+.section-intro .question p {
+    max-width: 380px
+}
+
+.section-intro .question img {
+    width: 100%;
+    object-fit: contain
+}

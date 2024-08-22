@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Tạo logo trên title trang web  -->
+    <link rel="shortcut icon" href="./public/images/logo/favicon.png" />
+    <title>About us</title>
+
+    <!-- Css tổng: Layout + Navbar + Footer  -->
+    <link rel="stylesheet" href="./public/css/style.css">
+
+    <!-- Import bootstrap 5 -->
+    <link rel="stylesheet" href="./public/css/bootstrap-5.3.3.min.css">
+    <script src="./public/js/bootstrap-5.3.3.bundle.min.js"></script>
+
+    <!-- Import thư viện Icon Fontawesome -->
+    <link rel="stylesheet" href="./public/css/fa-all.min.css">
+    <script src="./public/js/fa-all.min.js"></script>
+
+    <!-- Import thư viện hiệu ứng -->
+    <script src="./public/js/scrollreveal.js"></script>
+
+    <!-- Import thư viện carousel slide SwiperJS -->
+    <link rel="stylesheet" href="./public/css/swiper-bundle.css">
+    <script src="./public/js/swiper-bundle.min.js"></script>
+
+    <!-- Import css cho từng trang  -->
+    <link rel="stylesheet" href="./public/css/blog.css">
+
+</head>
+
+<body>
+    <!-- Offcanvas là 1 thành phần sidebar của bootstrap -->
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="hebaceSideBar" aria-labelledby="hebaceSideBarLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="hebaceSideBarLabel">Herbacé</h5>
+            <button type="button" class="btn m-0 p-0 border-0 shadow-0 text-main-color" data-bs-dismiss="offcanvas"
+                aria-label="Close">
+                <i class="fas fa-times" style="font-size: 28px;"></i>
+            </button>
+        </div>
+        <div class="offcanvas-body">
+            <ul class="nav-menu">
+                <li>
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li>
+                    <a href="aboutus.html" class="nav-link">About us</a>
+                </li>
+                <li>
+                    <a href="shop.html" class="nav-link">Wedding dress</a>
+                </li>
+                <li>
+                    <a href="collections.html" class="nav-link">Collections</a>
+                </li>
+                <li>
+                    <a href="services.html" class="nav-link">Our Services</a>
+                </li>
+                <li>
+                    <a href="blog.html" class="nav-link">Blog</a>
+                </li>
+                <li>
+                    <a href="contact.html" class="nav-link">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Navbar -->
+    <nav id="navbar" class="conatiner-fluid sticky-top">
+        <div class="container wrap-nav">
+            <!-- Logo -->
+            <a href="index.html" class="nav-logo">
+                <img loading="lazy" src="./public/images/logo/logo-nav.png">
+            </a>
+
+            <!-- Nút kích hoạt offcanvas - sidebar  -->
+            <button class="btn m-0 p-0 d-lg-none text-main-color" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#hebaceSideBar" aria-controls="hebaceSideBar">
+                <i class="fas fa-bars" style="font-size: 28px;"></i>
+            </button>
+
+            <!-- Links -->
+            <ul class="nav-menu d-none d-lg-flex">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="aboutus.html" class="nav-link">About us</a>
+                </li>
+                <li class="nav-item">
+                    <a href="shop.html" class="nav-link">Wedding dress</a>
+                </li>
+                <li class="nav-item">
+                    <a href="collections.html" class="nav-link">Collections</a>
+                </li>
+                <li class="nav-item">
+                    <a href="services.html" class="nav-link">Our Services</a>
+                </li>
+                <li class="nav-item">
+                    <a href="blog.html" class="nav-link">Blog</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- End navbar -->
+
+    <main class="conatiner-fluid">
+        <section class="srv w-100 banner">
+            <div class="container h-100">
+                <div class="banner-content w-100 p-4 p-sm-5">
+                    <h3 class="text-center">Blog</h3>
+                    <h4 class="text-center">Wedding Whispers: Love in Every Detail</h4>
+                </div>
+            </div>
+        </section>
+
+        <section class="bottom-banner-content srv mb-3 mb-md-4 mb-lg-5 w-100">
+            <div class="row srv m-0 w-100">
+                <div class="content col-12 col-lg-10 col-xxl-8">
+                    <h4>Herbace Weddings: Crafting Everlasting Moments</h4>
+                    <p>Welcome to the "Herbacé Wedding Journal" — your quick guide to crafting unforgettable
+                        celebrations. Explore trends, gain insights, and discover inspiration to infuse your love story
+                        into every wedding detail. Join us on this concise journey, where we share valuable tips and
+                        secrets for creating Hebacé moments that last a lifetime.</p>
+                    <div class="w-100 box-line">
+                        <img loading="lazy" src="./public/images/materials/eline.png">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="list-blogs mb-3 mb-md-4 mb-lg-5 container p-0">
+            <div class="row m-0 p-0 w-100">
+
+                <div class="srv col-6 col-lg-4 blog-card mb-3">
+                    <a href="#">
+                        <img loading="lazy" src="./public/images/blog/1.png">
+                        <h5>
+                            The Tailrace Centre is located on the banks of the Tamar River, just a short 5 minute drive
+                            from
+                            the Launceston CBD making it the ideal venue for your wedding.
+                        </h5>
+                        <span class="text-dark fw-bold">13/1/2024</span>
+                        <p>
+                            The Tailrace Centre is located on the banks of the Tamar River, just a short 5 minute drive
+                            from
+                            the Launceston CBD making it the ideal venue for your wedding.
+                        </p>
+                    </a>
+                </div>
+
+                <div class="srv col-6 col-lg-4 blog-card mb-3">
+                    <a href="#">
+                        <img loading="lazy" src="./public/images/blog/2.png">
+                        <h5>
+                            The Tailrace Centre is located on the banks of the Tamar River, just a short 5 minute drive
+                            from the Launceston CBD making it the ideal venue for your wedding.
+                        </h5>
+                        <span class="text-dark fw-bold">13/1/2024</span>
+                        <p>
+                            The Tailrace Centre is located on the banks of the Tamar River, just a short 5 minute drive
+                            from the Launceston CBD making it the ideal venue for your wedding.
+                        </p>
+                    </a>
+                </div>
+
+                <div class="srv col-6 col-lg-4 blog-card mb-3">
+                    <a href="#">
+                        <img loading="lazy" src="./public/images/blog/3.png">
+                        <h5>
+                            The Tailrace Centre is located on the banks of the Tamar River, just a short 5 minute drive
+                            from the Launceston CBD making it the ideal venue for your wedding.
+                        </h5>
+                        <span class="text-dark fw-bold">13/1/2024</span>
+                        <p>
+                            The Tailrace Centre is located on the banks of the Tamar River, just a short 5 minute drive
+                            from the Launceston CBD making it the ideal venue for your wedding.
+                        </p>
+                    </a>
+                </div>
+
+                <div class="srv col-6 col-lg-4 blog-card mb-3">
+                    <a href="#">
+                        <img loading="lazy" src="./public/images/blog/4.png">
+                        <h5>
+                            The Tailrace Centre is located on the banks of the Tamar River, just a short 5 minute drive
+                            from the Launceston CBD making it the ideal venue for your wedding.
+                        </h5>
+                        <span class="text-dark fw-bold">13/1/2024</span>
+                        <p>
+                            The Tailrace Centre is located on the banks of the Tamar River, just a short 5 minute drive
+                            from the Launceston CBD making it the ideal venue for your wedding.
+                        </p>
+                    </a>
+                </div>
+
+                <div class="srv col-6 col-lg-4 blog-card mb-3">
+                    <a href="#">
+                        <img loading="lazy" src="./public/images/blog/5.png">
+                        <h5>
+                            The Tailrace Centre is located on the banks of the Tamar River, just a short 5 minute drive
+                            from the Launceston CBD making it the ideal venue for your wedding.
+                        </h5>
+                        <span class="text-dark fw-bold">13/1/2024</span>
+                        <p>
+                            The Tailrace Centre is located on the banks of the Tamar River, just a short 5 minute drive
+                            from the Launceston CBD making it the ideal venue for your wedding.
+                        </p>
+                    </a>
+                </div>
+
+                <div class="srv col-6 col-lg-4 blog-card mb-3">
+                    <a href="#">
+                        <img loading="lazy" src="./public/images/blog/6.png">
+                        <h5>
+                            The Tailrace Centre is located on the banks of the Tamar River, just a short 5 minute drive
+                            from the Launceston CBD making it the ideal venue for your wedding.
+                        </h5>
+                        <span class="text-dark fw-bold">13/1/2024</span>
+                        <p>
+                            The Tailrace Centre is located on the banks of the Tamar River, just a short 5 minute drive
+                            from the Launceston CBD making it the ideal venue for your wedding.
+                        </p>
+                    </a>
+                </div>
+
+            </div>
+            <div class="srv paggination mb-3">
+                <button class="btn">&lt; </button>
+                <button class="btn">&lt;&lt;</button>
+                <span>...</span>
+                <button class="btn">2</button>
+                <button class="btn active">3</button>
+                <button class="btn">4</button>
+                <span>...</span>
+                <button class="btn">&gt;</button>
+                <button class="btn">&gt;&gt;</button>
+            </div>
+        </section>
+
+        <section class="subcribe-form w-100">
+            <div class="container position-relative">
+                <span class="srv material i-left">
+                    <img loading="lazy" src="./public/images/materials/i-right.png">
+                </span>
+                <span class="srv material i-right">
+                    <img loading="lazy" src="./public/images/materials/i-right.png">
+                </span>
+                <form class="srv w-100 row m-0 p-0 py-4 py-md-5 w-100">
+                    <h3>SIGN UP FOR EXCLUSIVE OFFERS AT<br>Herbace Wedding</h3>
+                    <div class="col-12 col-md-6 col-xl-2">
+                        <label>
+                            title * <br>
+                            <select>
+                                <option value="" selected disabled>- SELECT -</option>
+                                <option value="news">E-NEWSLETTERS</option>
+                                <option value="news">EDMS</option>
+                                <option value="news">OFFERS</option>
+                            </select>
+                        </label>
+                    </div>
+                    <div class="col-12 col-md-6 col-xl-3">
+                        <label>
+                            first name *
+                            <br>
+                            <input type="text" placeholder="Enter your first name" />
+                        </label>
+                    </div>
+                    <div class="col-12 col-md-6 col-xl-3">
+                        <label>
+                            last name *
+                            <br>
+                            <input type="text" placeholder="Enter your last name" />
+                        </label>
+                    </div>
+                    <div class="col-12 col-md-6 col-xl-4">
+                        <label>
+                            email *
+                            <br>
+                            <input type="text" placeholder="Enter your email" />
+                        </label>
+                    </div>
+                    <div class="col-12 mt-3">
+                        <label class="wrap-cb">OPT-IN: I CONSENT TO RECEIVING REGENT PHU QUOC E-NEWSLETTERS, EDMS,
+                            OFFERS
+                            AND PROMOTIONS.
+                            <input type="checkbox">
+                            <span class="checkmark"></span>
+                        </label>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer class="conatiner-fluid">
+        <div class="container py-3">
+            <div class="row m-0 mb-5 mb-lg-3 p-3 p-md-0">
+                <div class="col-12 col-lg-6 row m-0 p-0">
+                    <div class="col-12 col-sm-6 footer-contact">
+                        <div class="w-100 m-0 p-0 box-logo">
+                            <img loading="lazy" src="./public/images/logo/logo-footer.png">
+                        </div>
+                        <div class="w-100 m-0 p-0 social-network">
+                            <a href="#">
+                                <img loading="lazy" src="./public/images/materials/facebook.png">
+                            </a>
+                            <a href="#">
+                                <img loading="lazy" src="./public/images/materials/twitter.png">
+                            </a>
+                            <a href="#">
+                                <img loading="lazy" src="./public/images/materials/ins.png">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 m-0 mt-4 mt-sm-0 p-0 footer-nav">
+                        <h5 class="fw-bold">HERBACÉ WEDDING</h5>
+                        <ul class="list-unstyled">
+                            <li>
+                                <a href="index.html" class="nav-link">Home</a>
+                            </li>
+                            <li>
+                                <a href="aboutus.html" class="nav-link">About us</a>
+                            </li>
+                            <li>
+                                <a href="shop.html" class="nav-link">Wedding dress</a>
+                            </li>
+                            <li>
+                                <a href="collections.html" class="nav-link">Collections</a>
+                            </li>
+                            <li>
+                                <a href="services.html" class="nav-link">Our Services</a>
+                            </li>
+                            <li>
+                                <a href="blog.html" class="nav-link">Blog</a>
+                            </li>
+                            <li>
+                                <a href="contact.html" class="nav-link">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6 m-0 mt-sm-4 mt-lg-0 p-0">
+                    <div class="w-100 row m-0 p-0">
+                        <div class="col-12 col-sm-6 m-0 p-0">
+                            <h5 class="fw-bold">terms</h5>
+                            <ul class="list-unstyled">
+                                <li>
+                                    <a href="#" class="nav-link">Terms of use</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="nav-link">Information security policy</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="nav-link">Privacy policy</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-12 col-sm-6 m-0 p-0">
+                            <h5 class="fw-bold">contact</h5>
+                            <ul class="list-unstyled">
+                                <li>
+                                    <img loading="lazy" src="./public/images/materials/location.png">
+                                    <a href="#" class="nav-link">126 Hung Vuong, Viet Tri, Phu Tho, Viet Nam</a>
+                                </li>
+                                <li>
+                                    <img loading="lazy" src="./public/images/materials/tel.png">
+                                    <a href="#" class="nav-link">0269 3606 999</a>
+                                </li>
+                                <li>
+                                    <img loading="lazy" src="./public/images/materials/social.png">
+                                    <a href="#" class="nav-link">herbacewedding@gmail.com</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="w-100 m-0 mt-4 p-0">
+                        <h5 class="fw-bold">stay up to date with our news</h5>
+                        <form class="w-100 m-0 p-0 footer-sub-form">
+                            <input type="text" name="email" class="input-email" placeholder="Enter your email" />
+                            <button type="submit" class="btn text-main-color m-0 p-0 btn-submit">
+                                <i class="fas fa-arrow-right"></i>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="m-0 px-0 py-2 copy-right">
+                <span>
+                    Herbacé Wedding - Your dream wedding
+                </span>
+                <span>
+                    Copyright 2023 © Herbace Wedding
+                </span>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        ScrollReveal().reveal('.srv', { delay: 400 });
+    </script>
+
+</body>
+
+</html>

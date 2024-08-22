@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Tạo logo trên title trang web  -->
+    <link rel="shortcut icon" href="./public/images/logo/favicon.png" />
+    <title>About us</title>
+
+    <!-- Css tổng: Layout + Navbar + Footer  -->
+    <link rel="stylesheet" href="./public/css/style.css">
+
+    <!-- Import bootstrap 5 -->
+    <link rel="stylesheet" href="./public/css/bootstrap-5.3.3.min.css">
+    <script src="./public/js/bootstrap-5.3.3.bundle.min.js"></script>
+
+    <!-- Import thư viện Icon Fontawesome -->
+    <link rel="stylesheet" href="./public/css/fa-all.min.css">
+    <script src="./public/js/fa-all.min.js"></script>
+
+    <!-- Import thư viện hiệu ứng -->
+    <script src="./public/js/scrollreveal.js"></script>
+
+    <!-- Import thư viện carousel slide SwiperJS -->
+    <link rel="stylesheet" href="./public/css/swiper-bundle.css">
+    <script src="./public/js/swiper-bundle.min.js"></script>
+
+    <!-- Import css cho từng trang  -->
+    <link rel="stylesheet" href="./public/css/aboutus.css">
+
+</head>
+
+<body>
+    <!-- Offcanvas sidebar của bootstrap -->
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="hebaceSideBar" aria-labelledby="hebaceSideBarLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="hebaceSideBarLabel">Herbace</h5>
+            <button type="button" class="btn m-0 p-0 border-0 shadow-0 text-main-color" data-bs-dismiss="offcanvas"
+                aria-label="Close">
+                <i class="fas fa-times" style="font-size: 28px;"></i> 
+            </button>
+        </div>
+        <div class="offcanvas-body">
+            <ul class="nav-menu">
+                <li>
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li>
+                    <a href="aboutus.html" class="nav-link">About us</a>
+                </li>
+                <li>
+                    <a href="shop.html" class="nav-link">Wedding dress</a>
+                </li>
+                <li>
+                    <a href="collections.html" class="nav-link">Collections</a>
+                </li>
+                <li>
+                    <a href="services.html" class="nav-link">Our Services</a>
+                </li>
+                <li>
+                    <a href="blog.html" class="nav-link">Blog</a>
+                </li>
+                <li>
+                    <a href="contact.html" class="nav-link">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Navbar -->
+    <nav id="navbar" class="conatiner-fluid sticky-top">
+        <div class="container wrap-nav">
+            <!-- Logo -->
+            <a href="index.html" class="nav-logo">
+                <img loading="lazy" src="./public/images/logo/logo-nav.png">
+            </a>
+
+            <!-- Nút kích hoạt offcanvas - sidebar  -->
+            <button class="btn m-0 p-0 d-lg-none text-main-color" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#hebaceSideBar" aria-controls="hebaceSideBar">
+                <i class="fas fa-bars" style="font-size: 28px;"></i>
+            </button>
+            
+            <ul class="nav-menu d-none d-lg-flex">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="aboutus.html" class="nav-link">About us</a>
+                </li>
+                <li class="nav-item">
+                    <a href="shop.html" class="nav-link">Wedding dress</a>
+                </li>
+                <li class="nav-item">
+                    <a href="collections.html" class="nav-link">Collections</a>
+                </li>
+                <li class="nav-item">
+                    <a href="services.html" class="nav-link">Our Services</a>
+                </li>
+                <li class="nav-item">
+                    <a href="blog.html" class="nav-link">Blog</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- End navbar -->
+
+    <main class="conatiner-fluid">
+        <section class="w-100 mb-4 mb-md-5 conatiner-fluid banner srv">
+            <div class="container h-100">
+                <div class="banner-content w-100 p-4 p-sm-5">
+                    <h5 class="text-center">EXPLORE OUR HOME</h5>
+                    <h3 class="text-center">Herbace Wedding</h3>
+                </div>
+            </div>
+        </section>
+        <section class="welcome mb-4 mb-md-5 controller-fluid overflow-hidden">
+            <div class="row m-0 p-0 w-100 d-flex align-items-center justify-content-center">
+                <div class="col-12 col-md-9 col-lg-8 col-xxl-6 m-0 p-3 position-relative srv">
+                    <img loading="lazy" class="wel-material item-left" src="./public/images/materials/wing-left.png" alt="materials">
+                    <img loading="lazy" class="wel-material item-right" src="./public/images/materials/wing-right.png" alt="materials">
+                    <div class="content p-4 m-0">
+                        <h3>Welcome</h3>
+                        <h4>We are Herbacé Wedding</h4>
+                        <div class="m-0 p-0 w-100 row">
+                            <div class="d-none d-sm-flex aside-welcome col-sm-5">
+                            </div>
+                            <div class="col-12 col-sm-7 py-3 px-4">
+                                <p>
+                                    If you dream of sand between your toes or a view onto a palm grove on your
+                                    wedding day, Herbace wedding offers ample indoor or al fresco options for this
+                                    special day. Facing onto the sunset with your closest family and friends and
+                                    cared for by our attentive team. Our dedicated wedding planning team is here to
+                                    make sure that your special day is the one that you’ve always dreamed of.<br>
+                                    Herbacé's wedding dresses are made from elegant lace materials combined with
+                                    carefully selected good background materials and will be the top choice of
+                                    modern brides.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="our-style controller mb-4 mb-md-5">
+            <div class="w-100 row m-0 p-4 p-lg-5 my-3 d-flex align-items-center justify-content-center srv">
+                <div class="wrap-content col-12 col-sm-8 row m-0 p-0">
+                    <div class="col-4 d-none d-lg-flex position-relative">
+                        <img loading="lazy" class="our-1" src="./public/images/aboutus/our1.png">
+                    </div>
+                    <div class="col-12 col-lg-8 p-4 p-md-5">
+                        <h3>Our style</h3>
+                        <p>
+                            If you dream of sand between your toes or a view onto a palm grove on your wedding day,
+                            Herbace wedding offers ample indoor or al fresco options for this special day. Facing onto the
+                            sunset with your closest family and friends and cared for by our attentive team. Our dedicated
+                            wedding planning team is here to make sure that your special day is the one that you’ve always
+                            dreamed
+                            of.
+
+                            Herbacé's wedding dresses are made from elegant lace materials combined with carefully
+                            selected good background materials and will be the top choice of modern brides. With a symmetrical
+                            lace fishtail shape and more carefully processed checkered patterns on the chest and back, it
+                            will be chosen by brides.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="w-100 row m-0 p-4 p-lg-5 my-3 d-flex align-items-center justify-content-center srv">
+                <div class="wrap-content col-12 col-sm-8 row m-0 p-0">
+                    <div class="col-12 col-lg-8 p-4 p-md-5">
+                        <h3>Our style</h3>
+                        <p>
+                            If you dream of sand between your toes or a view onto a palm grove on your wedding day,
+                            Herbace wedding offers ample indoor or al fresco options for this special day. Facing onto the
+                            sunset with your closest family and friends and cared for by our attentive team. Our dedicated
+                            wedding planning team is here to make sure that your special day is the one that you’ve always
+                            dreamed of.
+
+                            Herbacé's wedding dresses are made from elegant lace materials combined with carefully
+                            selected ood background materials and will be the top choice of modern brides. With a
+                            symmetrical lace fishtail shape and more carefully processed checkered patterns on the chest and back, 
+                            it will be chosen by brides.
+                        </p>
+                    </div>
+                    <div class="col-4 d-none d-lg-flex position-relative">
+                        <img loading="lazy" class="our-2" src="./public/images/aboutus/our-2.png">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="w-100 conatiner-fluid booknow mb-4 mb-md-5 srv">
+            <div
+                class="wrap-content-booknow w-100 container d-flex justify-content-center justify-content-md-start h-100">
+                <div class="col-12 col-lg-6 py-5 d-flex align-items-center align-items-lg-start">
+                    <div class="booknow-content w-100 py-4 py-md-5 px-4 px-sm-5 px-lg-3">
+                        <h3>No words can describe</h3>
+                        <p class="my-4">Herbacé Wedding – Váy cưới đến từ trái tim, mang phong cách sống và thời trang
+                            phóng khoáng vào từng thiết kế trang phục cưới!</p>
+                        <div class="w-100 booknow-button">
+                            <button class="btn btn-book">Book now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="w-100 container willing mb-4 mb-md-5">
+            <h3 class="text-center srv">We are willing to</h3>
+            <div class="w-100 m-0 p-0 row justify-content-center">
+                <div class="col-12 wrap-item col-sm-6 col-lg-4 p-4 p-sm-2 p-md-3 srv">
+                    <img loading="lazy" src="./public/images/aboutus/image1.png">
+                    <div>
+                        <span>WORK TIME</span><br>
+                        08:00 AM – 22:00 PM
+                        <br>
+                        Monday – Sunday
+                    </div>
+                </div>
+                <div class="col-12 wrap-item col-sm-6 col-lg-4 p-4 p-sm-2 p-md-3 srv">
+                    <img loading="lazy" src="./public/images/aboutus/image2.png">
+                    <div>
+                        <span>24/7 CONSULTATION</span><br>
+                        Always willing to serve<br>
+                        Enthusiastic and dedicated
+                    </div>
+                </div>
+                <div class="col-12 wrap-item col-sm-6 col-lg-4 p-4 p-sm-2 p-md-3 srv">
+                    <img loading="lazy" src="./public/images/aboutus/image3.png">
+                    <div>
+                        <span>24/7 CONSULTATION</span><br>
+                        Always willing to serve<br>
+                        Enthusiastic and dedicated
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+    </main>
+    <footer class="conatiner-fluid">
+        <div class="container py-3">
+            <div class="row m-0 mb-5 mb-lg-3 p-3 p-md-0">
+                <div class="col-12 col-lg-6 row m-0 p-0">
+                    <div class="col-12 col-sm-6 footer-contact">
+                        <div class="w-100 m-0 p-0 box-logo">
+                            <img loading="lazy" src="./public/images/logo/logo-footer.png">
+                        </div>
+                        <div class="w-100 m-0 p-0 social-network">
+                            <a href="#">
+                                <img loading="lazy" src="./public/images/materials/facebook.png">
+                            </a>
+                            <a href="#">
+                                <img loading="lazy" src="./public/images/materials/twitter.png">
+                            </a>
+                            <a href="#">
+                                <img loading="lazy" src="./public/images/materials/ins.png">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 m-0 mt-4 mt-sm-0 p-0 footer-nav">
+                        <h5 class="fw-bold">HERBACÉ WEDDING</h5>
+                        <ul class="list-unstyled">
+                            <li>
+                                <a href="index.html" class="nav-link">Home</a>
+                            </li>
+                            <li>
+                                <a href="aboutus.html" class="nav-link">About us</a>
+                            </li>
+                            <li>
+                                <a href="shop.html" class="nav-link">Wedding dress</a>
+                            </li>
+                            <li>
+                                <a href="collections.html" class="nav-link">Collections</a>
+                            </li>
+                            <li>
+                                <a href="services.html" class="nav-link">Our Services</a>
+                            </li>
+                            <li>
+                                <a href="blog.html" class="nav-link">Blog</a>
+                            </li>
+                            <li>
+                                <a href="contact.html" class="nav-link">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6 m-0 mt-sm-4 mt-lg-0 p-0">
+                    <div class="w-100 row m-0 p-0">
+                        <div class="col-12 col-sm-6 m-0 p-0">
+                            <h5 class="fw-bold">terms</h5>
+                            <ul class="list-unstyled">
+                                <li>
+                                    <a href="#" class="nav-link">Terms of use</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="nav-link">Information security policy</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="nav-link">Privacy policy</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-12 col-sm-6 m-0 p-0">
+                            <h5 class="fw-bold">contact</h5>
+                            <ul class="list-unstyled">
+                                <li>
+                                    <img loading="lazy" src="./public/images/materials/location.png">
+                                    <a href="#" class="nav-link">126 Hung Vuong, Viet Tri, Phu Tho, Viet Nam</a>
+                                </li>
+                                <li>
+                                    <img loading="lazy" src="./public/images/materials/tel.png">
+                                    <a href="#" class="nav-link">0269 3606 999</a>
+                                </li>
+                                <li>
+                                    <img loading="lazy" src="./public/images/materials/social.png">
+                                    <a href="#" class="nav-link">herbacewedding@gmail.com</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="w-100 m-0 mt-4 p-0">
+                        <h5 class="fw-bold">stay up to date with our news</h5>
+                        <form class="w-100 m-0 p-0 footer-sub-form">
+                            <input type="text" name="email" class="input-email" placeholder="Enter your email" />
+                            <button type="submit" class="btn text-main-color m-0 p-0 btn-submit">
+                                <i class="fas fa-arrow-right"></i>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="m-0 px-0 py-2 copy-right">
+                <span>
+                    Herbacé Wedding - Your dream wedding
+                </span>
+                <span>
+                    Copyright 2023 © Herbace Wedding
+                </span>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        ScrollReveal().reveal('.srv', { delay: 400 });
+    </script>
+
+</body>
+
+</html>

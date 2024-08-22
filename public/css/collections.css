@@ -1,0 +1,101 @@
+.banner img {
+    width: 100%;
+    object-fit: contain
+}
+
+.bottom-banner-content .row {
+    padding: 30px 40px;
+    background-color: #ead9c9;
+    display: flex;
+    justify-content: center
+}
+
+.bottom-banner-content .row .content .box-line {
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.bottom-banner-content .row .content .box-line img {
+    width: 50%;
+    object-fit: contain
+}
+
+.bottom-banner-content .row .content h3,
+.bottom-banner-content .row .content h4,
+.bottom-banner-content .row .content p {
+    text-align: center
+}
+
+.bottom-banner-content .row .content h3 {
+    font-family: "Raleway Regular" !important;
+    text-transform: uppercase
+}
+
+.bottom-banner-content .row .content h4 {
+    color: #ab7d67
+}
+
+.collection-carousel .btn-control {
+    background-color: #ead9c9;
+    color: #ab7d67;
+    width: 50px;
+    height: 50px;
+    transition: 0.3s all ease
+}
+
+.collection-carousel .btn-control::after,
+.collection-carousel .btn-control::before {
+    display: none
+}
+
+.collection-carousel .btn-control:hover {
+    background-color: #ab7d67 !important;
+    color: #ead9c9 !important
+}
+
+.collection-carousel .wrap-slide-content {
+    transition: 0.3s all ease;
+    position: relative
+}
+
+.collection-carousel .wrap-slide-content .content {
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    position: absolute;
+    background-color: rgba(171, 125, 103, 0.7);
+    padding: 10px 12px;
+    transition: 0.5s all ease
+}
+
+.collection-carousel .wrap-slide-content .content h3,
+.collection-carousel .wrap-slide-content .content p {
+    text-align: center;
+    color: #fff !important
+}
+
+.collection-carousel .wrap-slide-content .content h3 {
+    font-size: 2.2rem !important
+}
+
+.collection-carousel .swiper-slide img {
+    width: 100%;
+    object-fit: contain
+}
+
+.collection-carousel .swiper-slide .wrap-slide-content {
+    transform: scale(0.8)
+}
+
+.collection-carousel .swiper-slide .wrap-slide-content .content {
+    opacity: 0
+}
+
+.collection-carousel .swiper-slide-active .wrap-slide-content {
+    transform: scale(1) !important
+}
+
+.collection-carousel .swiper-slide-active .wrap-slide-content .content {
+    opacity: 1
+}

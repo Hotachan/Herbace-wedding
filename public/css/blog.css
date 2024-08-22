@@ -1,0 +1,209 @@
+.banner {
+    height: calc(100vh - 86px);
+    background-image: url("../images/blog/banner.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 52%
+}
+
+.banner .container {
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.banner .container .banner-content {
+    width: 100%
+}
+
+.banner .container .banner-content h3,
+.banner .container .banner-content h4 {
+    color: #fff !important
+}
+
+.banner .container .banner-content h3 {
+    font-size: calc(3.75rem + 1.5vw) !important
+}
+
+.banner .container .banner-content h4 {
+    font-size: calc(2.75rem + 1.3vw) !important
+}
+
+.bottom-banner-content .row {
+    padding: 30px 40px;
+    background-color: #ead9c9;
+    display: flex;
+    justify-content: center
+}
+
+.bottom-banner-content .row .content .box-line {
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.bottom-banner-content .row .content .box-line img {
+    width: 50%;
+    object-fit: contain
+}
+
+.bottom-banner-content .row .content h4,
+.bottom-banner-content .row .content p {
+    text-align: center
+}
+
+.bottom-banner-content .row .content h4 {
+    font-family: "Moglan" !important;
+    color: #ab7d67
+}
+
+.list-blogs .blog-card a img {
+    width: 100%;
+    object-fit: contain;
+    margin-bottom: 8px
+}
+
+.list-blogs .blog-card a h5,
+.list-blogs .blog-card a p {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden
+}
+
+.list-blogs .blog-card a h5 {
+    color: #ab7d67;
+    font-weight: bold
+}
+
+.list-blogs .blog-card a p {
+    color: #787878
+}
+
+.list-blogs .paggination {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 4px
+}
+
+.list-blogs .paggination span,
+.list-blogs .paggination .btn {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0px !important;
+    color: #ab7d67
+}
+
+.list-blogs .paggination .active {
+    background-color: #ab7d67 !important;
+    color: #ead9c9 !important
+}
+
+.subcribe-form {
+    border-top: 1px solid #ab7d67;
+    overflow: hidden
+}
+
+.subcribe-form .material {
+    position: absolute;
+    width: 100px
+}
+
+.subcribe-form .i-left {
+    bottom: 0;
+    left: -50px;
+    transform: rotate(135deg)
+}
+
+.subcribe-form .i-right {
+    top: 30px;
+    right: -50px;
+    transform: rotate(-35deg)
+}
+
+.subcribe-form form h3 {
+    text-align: center
+}
+
+.subcribe-form form label:not(.wrap-cb) {
+    width: 100%;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    color: #ab7d67
+}
+
+.subcribe-form form label:not(.wrap-cb) select,
+.subcribe-form form label:not(.wrap-cb) input {
+    width: 100%;
+    outline: none !important;
+    background-color: transparent;
+    border: 1px solid #ab7d67;
+    color: #ab7d67;
+    padding: 8px 10px;
+    margin-bottom: 8px
+}
+
+.subcribe-form form .wrap-cb {
+    width: 100%;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    color: #ab7d67;
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none
+}
+
+.subcribe-form form .wrap-cb input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0
+}
+
+.subcribe-form form .wrap-cb input:checked~.checkmark {
+    background-color: #ab7d67
+}
+
+.subcribe-form form .wrap-cb input:checked~.checkmark:after {
+    display: block
+}
+
+.subcribe-form form .wrap-cb .checkmark {
+    position: absolute;
+    top: 8px;
+    left: 0;
+    height: 24px;
+    width: 24px;
+    border: 1px solid #ab7d67
+}
+
+.subcribe-form form .wrap-cb .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none
+}
+
+.subcribe-form form .wrap-cb .checkmark::after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg)
+}

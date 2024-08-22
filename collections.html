@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Tạo logo trên title trang web  -->
+    <link rel="shortcut icon" href="./public/images/logo/favicon.png" />
+    <title>About us</title>
+
+    <!-- Css tổng: Layout + Navbar + Footer  -->
+    <link rel="stylesheet" href="./public/css/style.css">
+
+    <!-- Import bootstrap 5 -->
+    <link rel="stylesheet" href="./public/css/bootstrap-5.3.3.min.css">
+    <script src="./public/js/bootstrap-5.3.3.bundle.min.js"></script>
+
+    <!-- Import thư viện Icon Fontawesome -->
+    <link rel="stylesheet" href="./public/css/fa-all.min.css">
+    <script src="./public/js/fa-all.min.js"></script>
+
+    <!-- Import thư viện hiệu ứng -->
+    <script src="./public/js/scrollreveal.js"></script>
+
+    <!-- Import thư viện carousel slide SwiperJS -->
+    <link rel="stylesheet" href="./public/css/swiper-bundle.css">
+    <script src="./public/js/swiper-bundle.min.js"></script>
+
+    <!-- Import css cho từng trang  -->
+    <link rel="stylesheet" href="./public/css/collections.css">
+
+</head>
+
+<body>
+    <!-- Offcanvas sidebar bootstrap -->
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="hebaceSideBar" aria-labelledby="hebaceSideBarLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="hebaceSideBarLabel">Herbacé</h5>
+            <button type="button" class="btn m-0 p-0 border-0 shadow-0 text-main-color" data-bs-dismiss="offcanvas"
+                aria-label="Close">
+                <i class="fas fa-times" style="font-size: 28px;"></i>
+            </button>
+        </div>
+        <div class="offcanvas-body">
+            <ul class="nav-menu">
+                <li>
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li>
+                    <a href="aboutus.html" class="nav-link">About us</a>
+                </li>
+                <li>
+                    <a href="shop.html" class="nav-link">Wedding dress</a>
+                </li>
+                <li>
+                    <a href="collections.html" class="nav-link">Collections</a>
+                </li>
+                <li>
+                    <a href="services.html" class="nav-link">Our Services</a>
+                </li>
+                <li>
+                    <a href="blog.html" class="nav-link">Blog</a>
+                </li>
+                <li>
+                    <a href="contact.html" class="nav-link">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Navbar -->
+    <nav id="navbar" class="conatiner-fluid sticky-top">
+        <div class="container wrap-nav">
+            <!-- Logo -->
+            <a href="index.html" class="nav-logo">
+                <img loading="lazy" src="./public/images/logo/logo-nav.png">
+            </a>
+
+            <!-- Nút kích hoạt offcanvas - sidebar  -->
+            <button class="btn m-0 p-0 d-lg-none text-main-color" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#hebaceSideBar" aria-controls="hebaceSideBar">
+                <i class="fas fa-bars" style="font-size: 28px;"></i>
+            </button>
+
+            <!-- Links -->
+            <ul class="nav-menu d-none d-lg-flex">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="aboutus.html" class="nav-link">About us</a>
+                </li>
+                <li class="nav-item">
+                    <a href="shop.html" class="nav-link">Wedding dress</a>
+                </li>
+                <li class="nav-item">
+                    <a href="collections.html" class="nav-link">Collections</a>
+                </li>
+                <li class="nav-item">
+                    <a href="services.html" class="nav-link">Our Services</a>
+                </li>
+                <li class="nav-item">
+                    <a href="blog.html" class="nav-link">Blog</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- End navbar -->
+
+    <main class="conatiner-fluid">
+        <section class="banner srv mb-3 mb-md-4 mb-lg-5">
+            <img loading="lazy" src="./public/images/collections/banner.png">
+        </section>
+
+        <section class="bottom-banner-content srv mb-3 mb-md-4 mb-lg-5 container">
+            <div class="row srv m-0 w-100 rounded">
+                <div class="content col-12 col-lg-10 col-xxl-8">
+                    <div class="w-100 box-line">
+                        <img loading="lazy" src="./public/images/materials/eline.png">
+                    </div>
+                    <h3>season of love</h3>
+                    <h4>Bride's spring collection</h4>
+                    <p>Season of Love is a wedding dress collection that exalts the seductive scent and spirit of the
+                        modern bride with special designs on lightweight materials and high-quality lace, with famous
+                        hand-crafted floral motifs. More specifically, the designs of elegant royal princess dresses
+                        with hooks are built in perfect shape to help the modern bride bend attractively on the day of
+                        the party.</p>
+                    <div class="w-100 box-line">
+                        <img loading="lazy" src="./public/images/materials/eline.png">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="srv w-100 mb-3 mb-md-4 mb-lg-5 p-0">
+            <img loading="lazy" src="./public/images/collections/bgs.png" class="w-100">
+        </section>
+        <section class="srv container">
+            <div class="swiper my-4 my-xl-5 w-100 srv collection-carousel">
+                <div class="swiper-wrapper">
+
+                    <div class="swiper-slide">
+                        <div class="wrap-slide-content">
+                            <img loading="lazy" src="./public/images/collections/1.png">
+                            <div class="content">
+                                <h3>DEMISELY</h3>
+                                <p>Creating softness and luxury, and pure for a wedding day dress</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="wrap-slide-content">
+                            <img loading="lazy" src="./public/images/collections/2.png">
+                            <div class="content">
+                                <h3>DEMISELY</h3>
+                                <p>Creating softness and luxury, and pure for a wedding day dress</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="wrap-slide-content">
+                            <img loading="lazy" src="./public/images/collections/3.png">
+                            <div class="content">
+                                <h3>DEMISELY</h3>
+                                <p>Creating softness and luxury, and pure for a wedding day dress</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="wrap-slide-content">
+                            <img loading="lazy" src="./public/images/collections/4.png">
+                            <div class="content">
+                                <h3>DEMISELY</h3>
+                                <p>Creating softness and luxury, and pure for a wedding day dress</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Hai nút điều khiển SwiperJS -->
+                <div class="btn btn-control swiper-button-prev">
+                    <i class="fas fa-angle-left"></i>
+                </div>
+                <div class="btn btn-control swiper-button-next">
+                    <i class="fas fa-angle-right"></i>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="conatiner-fluid">
+        <div class="container py-3">
+            <div class="row m-0 mb-5 mb-lg-3 p-3 p-md-0">
+                <div class="col-12 col-lg-6 row m-0 p-0">
+                    <div class="col-12 col-sm-6 footer-contact">
+                        <div class="w-100 m-0 p-0 box-logo">
+                            <img loading="lazy" src="./public/images/logo/logo-footer.png">
+                        </div>
+                        <div class="w-100 m-0 p-0 social-network">
+                            <a href="#">
+                                <img loading="lazy" src="./public/images/materials/facebook.png">
+                            </a>
+                            <a href="#">
+                                <img loading="lazy" src="./public/images/materials/twitter.png">
+                            </a>
+                            <a href="#">
+                                <img loading="lazy" src="./public/images/materials/ins.png">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 m-0 mt-4 mt-sm-0 p-0 footer-nav">
+                        <h5 class="fw-bold">HERBACÉ WEDDING</h5>
+                        <ul class="list-unstyled">
+                            <li>
+                                <a href="index.html" class="nav-link">Home</a>
+                            </li>
+                            <li>
+                                <a href="aboutus.html" class="nav-link">About us</a>
+                            </li>
+                            <li>
+                                <a href="shop.html" class="nav-link">Wedding dress</a>
+                            </li>
+                            <li>
+                                <a href="collections.html" class="nav-link">Collections</a>
+                            </li>
+                            <li>
+                                <a href="services.html" class="nav-link">Our Services</a>
+                            </li>
+                            <li>
+                                <a href="blog.html" class="nav-link">Blog</a>
+                            </li>
+                            <li>
+                                <a href="contact.html" class="nav-link">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6 m-0 mt-sm-4 mt-lg-0 p-0">
+                    <div class="w-100 row m-0 p-0">
+                        <div class="col-12 col-sm-6 m-0 p-0">
+                            <h5 class="fw-bold">terms</h5>
+                            <ul class="list-unstyled">
+                                <li>
+                                    <a href="#" class="nav-link">Terms of use</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="nav-link">Information security policy</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="nav-link">Privacy policy</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-12 col-sm-6 m-0 p-0">
+                            <h5 class="fw-bold">contact</h5>
+                            <ul class="list-unstyled">
+                                <li>
+                                    <img loading="lazy" src="./public/images/materials/location.png">
+                                    <a href="#" class="nav-link">126 Hung Vuong, Viet Tri, Phu Tho, Viet Nam</a>
+                                </li>
+                                <li>
+                                    <img loading="lazy" src="./public/images/materials/tel.png">
+                                    <a href="#" class="nav-link">0269 3606 999</a>
+                                </li>
+                                <li>
+                                    <img loading="lazy" src="./public/images/materials/social.png">
+                                    <a href="#" class="nav-link">herbacewedding@gmail.com</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="w-100 m-0 mt-4 p-0">
+                        <h5 class="fw-bold">stay up to date with our news</h5>
+                        <form class="w-100 m-0 p-0 footer-sub-form">
+                            <input type="text" name="email" class="input-email" placeholder="Enter your email" />
+                            <button type="submit" class="btn text-main-color m-0 p-0 btn-submit">
+                                <i class="fas fa-arrow-right"></i>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="m-0 px-0 py-2 copy-right">
+                <span>
+                    Herbacé Wedding - Your dream wedding
+                </span>
+                <span>
+                    Copyright 2023 © Herbace Wedding
+                </span>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        ScrollReveal().reveal('.srv', { delay: 400 });
+    </script>
+
+    <script>
+        // Tạo 1 biến lưu object (đối tượng) các cấu hình của swiper
+        var swiper = new Swiper(".collection-carousel", {
+            autoplay: true,
+            loop: true,                 //lặp lại: có
+            slidesPerView: 1,         //slide / khung hình: 1 khung và 0,7 khung
+            spaceBetween: 32,           //Khoảng cách giữa các slide: 32px;
+            // Navigation arrows
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            breakpoints: {
+                576: {
+                    slidesPerView: 1.5,
+                },
+                768: {
+                    slidesPerView: 2.5,
+                },
+                978: {
+                    slidesPerView: 3.5,
+                },
+            }
+        });
+    </script>
+
+</body>
+
+</html>

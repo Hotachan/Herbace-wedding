@@ -1,0 +1,94 @@
+.banner h4 {
+    text-align: center;
+    color: #ab7d67
+}
+
+.banner .wrap-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #EEE1CF
+}
+
+.banner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover
+}
+
+.services .box-img,
+.the-numbers .box-img {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.our-photo .group-button {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    gap: 25px;
+    flex-wrap: wrap
+}
+
+.our-photo .group-button .active {
+    font-weight: bold;
+    text-decoration: underline
+}
+
+.our-photo .group-button button {
+    width: max-content !important;
+    margin: 0;
+    padding: 0
+}
+
+.the-numbers h3 {
+    font-family: "Raleway Regular" !important
+}
+
+.make-a-request h5,
+.make-a-request h3,
+.make-a-request p {
+    text-align: center
+}
+
+.make-a-request .wrap-form {
+    position: relative
+}
+
+.make-a-request .wrap-form .material {
+    position: absolute;
+    width: 200px !important
+}
+
+.make-a-request .wrap-form .i-right {
+    top: -30px;
+    right: -50px
+}
+
+.make-a-request .wrap-form .i-left {
+    bottom: -50px;
+    left: -70px
+}
+
+.make-a-request .wrap-form form {
+    background-color: #ead9c9;
+    position: relative
+}
+
+.make-a-request .wrap-form form input,
+.make-a-request .wrap-form form select,
+.make-a-request .wrap-form form textarea {
+    background-color: transparent;
+    border: 2px solid #ab7d67;
+    border-radius: 0px;
+    transition: 0.3s all ease
+}
+
+.make-a-request .wrap-form form input:focus,
+.make-a-request .wrap-form form select:focus,
+.make-a-request .wrap-form form textarea:focus {
+    outline: none !important;
+    box-shadow: none !important
+}

@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Tạo logo trên title trang web  -->
+    <link rel="shortcut icon" href="./public/images/logo/favicon.png" />
+    <title>Herbacé</title>
+
+    <!-- Css tổng: Layout + Navbar + Footer  -->
+    <link rel="stylesheet" href="./public/css/style.css">
+
+    <!-- Import bootstrap 5 -->
+    <link rel="stylesheet" href="./public/css/bootstrap-5.3.3.min.css">
+    <script src="./public/js/bootstrap-5.3.3.bundle.min.js"></script>
+
+    <!-- Import thư viện Icon Fontawesome -->
+    <link rel="stylesheet" href="./public/css/fa-all.min.css">
+    <script src="./public/js/fa-all.min.js"></script>
+
+    <!-- Import thư viện hiệu ứng -->
+    <script src="./public/js/scrollreveal.js"></script>
+
+    <!-- Import thư viện carousel slide SwiperJS -->
+    <link rel="stylesheet" href="./public/css/swiper-bundle.css">
+    <script src="./public/js/swiper-bundle.min.js"></script>
+
+    <!-- Import css cho từng trang  -->
+    <link rel="stylesheet" href="./public/css/index.css">
+</head>
+
+<body>
+    <!-- Offcanvas sidebar  bootstrap -->
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="hebaceSideBar" aria-labelledby="hebaceSideBarLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="hebaceSideBarLabel">Herbacé</h5>
+            <button type="button" class="btn m-0 p-0 border-0 shadow-0 text-main-color" data-bs-dismiss="offcanvas"
+                aria-label="Close">
+                <i class="fas fa-times" style="font-size: 28px;"></i>
+            </button>
+        </div>
+        <div class="offcanvas-body">
+            <ul class="nav-menu">
+                <li>
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li>
+                    <a href="aboutus.html" class="nav-link">About us</a>
+                </li>
+                <li>
+                    <a href="shop.html" class="nav-link">Wedding dress</a>
+                </li>
+                <li>
+                    <a href="collections.html" class="nav-link">Collections</a>
+                </li>
+                <li>
+                    <a href="services.html" class="nav-link">Our Services</a>
+                </li>
+                <li>
+                    <a href="blog.html" class="nav-link">Blog</a>
+                </li>
+                <li>
+                    <a href="contact.html" class="nav-link">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Navbar -->
+    <nav id="navbar" class="conatiner-fluid sticky-top">
+        <div class="container wrap-nav">
+            <!-- Logo -->
+            <a href="index.html" class="nav-logo">
+                <img loading="lazy" src="./public/images/logo/logo-nav.png">
+            </a>
+
+            <!-- Nút kích hoạt offcanvas - sidebar  -->
+            <button class="btn m-0 p-0 d-lg-none text-main-color" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#hebaceSideBar" aria-controls="hebaceSideBar">
+                <i class="fas fa-bars" style="font-size: 28px;"></i>
+            </button>
+
+            <!-- Links -->
+            <ul class="nav-menu d-none d-lg-flex">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="aboutus.html" class="nav-link">About us</a>
+                </li>
+                <li class="nav-item">
+                    <a href="shop.html" class="nav-link">Wedding dress</a>
+                </li>
+                <li class="nav-item">
+                    <a href="collections.html" class="nav-link">Collections</a>
+                </li>
+                <li class="nav-item">
+                    <a href="services.html" class="nav-link">Our Services</a>
+                </li>
+                <li class="nav-item">
+                    <a href="blog.html" class="nav-link">Blog</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- End navbar -->
+
+    <main class="conatiner-fluid">
+        <section class="w-100 conatiner-fluid banner srv">
+            <div
+                class="wrap-content-banner w-100 container d-flex justify-content-center justify-content-md-start h-100">
+                <div class="col-12 col-lg-6 py-5 d-flex align-items-center align-items-lg-start">
+                    <div class="banner-content w-100 py-4 py-md-5 px-4 px-sm-5 px-lg-3">
+                        <h1 class="text-white">Will you marry me?</h1>
+                        <p class="my-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et soluta fugit
+                            enim blanditiis
+                            voluptatum suscipit similique fuga amet, ...</p>
+                        <div class="w-100 banner-button">
+                            <button class="btn btn-view">View more</button>
+                            <button class="btn btn-book">Book now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="conatiner-fluid section-intro">
+            <div class="row m-0 p-0 my-5 w-100 about">
+                <div class="col-12 col-md-6 p-4 px-md-5 srv">
+                    <h5>explore out home</h5>
+                    <h3>Creating the best day ever</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras aliquam mi id augue ultrices, in
+                        tempus elit tristique.</p>
+                    <a href="#" class="btn">About us</a>
+                </div>
+                <div class="col-12 col-md-6 bg-about px-0 ps-4 ps-md-0 py-4 srv">
+                    <img loading="lazy" src="./public/images/home/intro1.png" />
+                </div>
+            </div>
+            <div class="row m-0 my-5 p-0 w-100 wedding-dress">
+                <div class="col-12 col-md-6 bg-shop px-0 pe-4 pe-md-0 py-4 bg-wedding-dress srv">
+                    <img loading="lazy" src="./public/images/home/intro2.png" />
+                </div>
+                <div class="col-12 col-md-6 p-4 px-md-5 srv">
+                    <h5>the most beautiful things</h5>
+                    <h3>Make your wedding a fairytale come true</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras aliquam mi id augue ultrices, in
+                        tempus elit tristique.</p>
+                    <a href="aboutus.html" class="btn">About us</a>
+                </div>
+            </div>
+            <div class="p-0 my-5 w-100 container collections">
+                <h5 class="text-center srv">the most beautiful things</h5>
+                <h3 class="text-center srv">Make your wedding a fairytale come true</h3>
+                <div class="d-flex mt-4 mt-xl-5 align-items-center justify-content-center">
+                    <a href="collections.html" class="btn">Collection</a>
+                </div>
+                <div class="w-100 p-3 py-md-4 py-xl-5 srv">
+                    <img loading="lazy" src="./public/images/home/collections.png" class="w-100">
+                </div>
+            </div>
+            <div class="my-5 p-0 w-100 moments position-relative">
+                <h3 class="text-center srv">Memorable moments</h3>
+                <h5 class="text-center srv">our services</h5>
+
+                <div class="swiper my-4 my-xl-5 w-100 srv collection-carousel top-carousel">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img loading="lazy" src="./public/images/home/slide-1.png">
+                            <div class="wrap-slide-content">
+                                <h5>video - photo</h5>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras aliquam mi id augue
+                                    ultrices</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img loading="lazy" src="./public/images/home/slide-2.png">
+                            <div class="wrap-slide-content">
+                                <h5>video - photo</h5>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras aliquam mi id augue
+                                    ultrices</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img loading="lazy" src="./public/images/home/slide-3.png">
+                            <div class="wrap-slide-content">
+                                <h5>video - photo</h5>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras aliquam mi id augue
+                                    ultrices</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img loading="lazy" src="./public/images/home/slide-4.png">
+                            <div class="wrap-slide-content">
+                                <h5>video - photo</h5>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras aliquam mi id augue
+                                    ultrices</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper my-4 my-xl-5 w-100 srv collection-carousel">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img loading="lazy" src="./public/images/home/slide-1.png">
+                            <div class="wrap-slide-content">
+                                <h5>video - photo</h5>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras aliquam mi id augue
+                                    ultrices</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img loading="lazy" src="./public/images/home/slide-2.png">
+                            <div class="wrap-slide-content">
+                                <h5>video - photo</h5>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras aliquam mi id augue
+                                    ultrices</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img loading="lazy" src="./public/images/home/slide-3.png">
+                            <div class="wrap-slide-content">
+                                <h5>video - photo</h5>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras aliquam mi id augue
+                                    ultrices</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img loading="lazy" src="./public/images/home/slide-4.png">
+                            <div class="wrap-slide-content">
+                                <h5>video - photo</h5>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras aliquam mi id augue
+                                    ultrices</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                
+            </div>
+            <div class="row m-0 p-0 w-100 story">
+                <div class="wrap-content srv">
+                    <div class="content">
+                        <img loading="lazy" src="./public/images/materials/quote-start.png" class="quote-start" alt="quote-start">
+                        <img loading="lazy" src="./public/images/materials/quote-end.png" class="quote-end" alt="quote-end">
+
+                        <h5 class="text-center srv">blog ervery day</h5>
+                        <h3 class="text-center srv">Perfect stories</h3>
+                        <p>If you dream of sand between your toes or a view onto a palm grove on your wedding day,
+                            Herbace
+                            wedding offers ample indoor or al fresco options for this special day. Facing onto the
+                            sunset
+                            with your closest family and friends and cared for by our attentive team. Our dedicated
+                            wedding
+                            planning team is here to make sure that your special day is the one that you’ve always
+                            dreamed
+                            of.</p>
+                    </div>
+                </div>
+                <div class="bg-story srv">
+                    <img loading="lazy" src="./public/images/home/story.png">
+                </div>
+            </div>
+            <div class="w-100 container mb-5 question">
+                <div class="row m-0 p-0 w-100">
+                    <div class="col-12 col-md-6 col-lg-4 my-3 ps-0 pe-3 srv">
+                        <h5 class="srv">create your memories</h5>
+                        <h3 class="srv">If you have any questions</h3>
+                        <p>Our dedicated wedding planning team is here to make sure that your special day is the one
+                        </p>
+                        <a href="contact.html" class="btn">Contact now</a>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-8 m-0 my-3 p-0 srv">
+                        <img loading="lazy" src="./public/images/home/qt.png">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="conatiner-fluid">
+        <div class="container py-3">
+            <!-- row: tạo hàng ngang -->
+            <div class="row m-0 mb-5 mb-lg-3 p-3 p-md-0">
+                <div class="col-12 col-lg-6 row m-0 p-0">
+                    <div class="col-12 col-sm-6 footer-contact">
+                        <div class="w-100 m-0 p-0 box-logo">
+                            <img loading="lazy" src="./public/images/logo/logo-footer.png">
+                        </div>
+                        <div class="w-100 m-0 p-0 social-network">
+                            <a href="#">
+                                <img loading="lazy" src="./public/images/materials/facebook.png">
+                            </a>
+                            <a href="#">
+                                <img loading="lazy" src="./public/images/materials/twitter.png">
+                            </a>
+                            <a href="#">
+                                <img loading="lazy" src="./public/images/materials/ins.png">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 m-0 mt-4 mt-sm-0 p-0 footer-nav">
+                        <h5 class="fw-bold">HERBACÉ WEDDING</h5>
+                        <ul class="list-unstyled">
+                            <li>
+                                <a href="index.html" class="nav-link">Home</a>
+                            </li>
+                            <li>
+                                <a href="aboutus.html" class="nav-link">About us</a>
+                            </li>
+                            <li>
+                                <a href="shop.html" class="nav-link">Wedding dress</a>
+                            </li>
+                            <li>
+                                <a href="collections.html" class="nav-link">Collections</a>
+                            </li>
+                            <li>
+                                <a href="services.html" class="nav-link">Our Services</a>
+                            </li>
+                            <li>
+                                <a href="blog.html" class="nav-link">Blog</a>
+                            </li>
+                            <li>
+                                <a href="contact.html" class="nav-link">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6 m-0 mt-sm-4 mt-lg-0 p-0">
+                    <div class="w-100 row m-0 p-0">
+                        <div class="col-12 col-sm-6 m-0 p-0">
+                            <h5 class="fw-bold">terms</h5>
+                            <ul class="list-unstyled">
+                                <li>
+                                    <a href="#" class="nav-link">Terms of use</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="nav-link">Information security policy</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="nav-link">Privacy policy</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-12 col-sm-6 m-0 p-0">
+                            <h5 class="fw-bold">contact</h5>
+                            <ul class="list-unstyled">
+                                <li>
+                                    <img loading="lazy" src="./public/images/materials/location.png">
+                                    <a href="#" class="nav-link">126 Hung Vuong, Viet Tri, Phu Tho, Viet Nam</a>
+                                </li>
+                                <li>
+                                    <img loading="lazy" src="./public/images/materials/tel.png">
+                                    <a href="#" class="nav-link">0269 3606 999</a>
+                                </li>
+                                <li>
+                                    <img loading="lazy" src="./public/images/materials/social.png">
+                                    <a href="#" class="nav-link">herbacewedding@gmail.com</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="w-100 m-0 mt-4 p-0">
+                        <h5 class="fw-bold">stay up to date with our news</h5>
+                        <form class="w-100 m-0 p-0 footer-sub-form">
+                            <input type="text" name="email" class="input-email" placeholder="Enter your email" />
+                            <button type="submit" class="btn text-main-color m-0 p-0 btn-submit">
+                                <i class="fas fa-arrow-right"></i>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="m-0 px-0 py-2 copy-right">
+                <span>
+                    Herbacé Wedding - Your dream wedding
+                </span>
+                <span>
+                    Copyright 2023 © Herbace Wedding
+                </span>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Tạo hiệu ứng xuất hiện với các phần tử có class là srv (tên tùy chọn) -->
+    <script>
+        ScrollReveal().reveal('.srv', { delay: 400 });
+    </script>
+
+    <script>
+        // Tạo 1 biến lưu object (đối tượng) các cấu hình của swiper
+        var swiper = new Swiper(".collection-carousel", {
+            autoplay: true,
+            loop: true,                 //lặp lại: có
+            slidesPerView: 1.5,         //slide / khung hình: 1 khung và 0,7 khung
+            spaceBetween: 32,           //Khoảng cách giữa các slide: 32px;
+            speed: 10000,               //Thời gian chạy hiệu ứng autoplay (milisecond)
+            breakpoints: {              // responsive số slide/khung hình
+                768: {                  // Mặc định 1.7, khi width screen > 768px thì là 2.5
+                    slidesPerView: 2.5,
+                },
+            }
+        });
+    </script>
+</body>
+
+</html>
