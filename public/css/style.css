@@ -149,9 +149,10 @@ h5 {
     transition: 0.3s all ease
 }
 
-#navbar .wrap-nav .nav-menu .nav-link:hover {
-    background-color: #ab7d67;
-    color: #fff
+#navbar .wrap-nav .nav-menu .nav-link:hover,
+#navbar .wrap-nav .nav-menu .active {
+    background-color: #ab7d67 !important;
+    color: #fff !important
 }
 
 main {
